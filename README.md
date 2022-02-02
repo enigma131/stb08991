@@ -6,12 +6,6 @@ Total changes from Linux sources are in separate file [ListOfChanges](ListOfChan
 
 I use it since kernel 4.x on different distribution familys (Ubuntu, Debian, Arch ,Fedora, Redhat).
 
-
-
-This module source will create a new Linux kernel demodulator module for test
-
-Total changes from Linux sources are in separate file [ListOfChanges](ListOfChanges). 
-
 Get the repository to local:
 
     git clone https://github.com/enigma131/stb08991.git
