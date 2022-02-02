@@ -2,7 +2,7 @@
 _stb0899_read_s2reg          : add test to not repeat demod and fec selector writing if repeated reads in same range
 stb0899_write_s2reg          : add test to not repeat demod and fec selector writing if repeated writes in same range
 stb0899_write_regs           : suppress bug ID 9, it's only for reads
-stb0899_init_calc            : addings according to datashheet
+stb0899_init_calc            : addings according datashheet
 stb0899_send_diseqc_burst    : set dummy routine, some sw send this command AFTER diseqc cmd -> diseqc>2 diden't work
                                this bug is found in libdvbv5 lib : libdvbv5/dvb-sat.c
 stb0899_set_delivery         : moved ahead
