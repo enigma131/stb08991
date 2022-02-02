@@ -20,7 +20,3 @@ stb0899_read_snr             : normalyse result for back-end
 stb0899_ops                  : suppress .init, move stb0899_init call in attach like TT driver
                              : -----> diseqc + tuner + demod + fec lock time now 350ms with this trick
 
-## stb0899_reg.h :
-correct #define STB0899_OFFST_IF_AGC_LOCK 0 -> 8  , was false, for if agc lock
-STB0899_TSTRS3               : was false value
-
