@@ -1,6 +1,3 @@
-## stb0899_cfg.h :
-BBAGCCNTRL & TSTR            : modify for modules configuration compilation
-
 ## stb0899_drv.c :
 _stb0899_read_s2reg          : add test to not repeat demod and fec selector writing if repeated reads in same range
 stb0899_write_s2reg          : add test to not repeat demod and fec selector writing if repeated writes in same range
@@ -19,4 +16,3 @@ stb0899_read_signal_strength : modify result and normalyse result for back-end
 stb0899_read_snr             : normalyse result for back-end 
 stb0899_ops                  : suppress .init, move stb0899_init call in attach like TT driver
                              : -----> diseqc + tuner + demod + fec lock time now 350ms with this trick
-
