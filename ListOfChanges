@@ -1,15 +1,3 @@
-## stb0899_algo.c:
-stb0899_dvbs2_config_uwp     : no more read because all sub registers are write
-stb0899_dvbs2_config_csm_auto: no more read
-stb0899_dvbs2_set_btr_loopbw : no read at end, complete register is set in sub
-stb0899_dvbs2_set_carr_freq  : no read at end, complete register is set in sub
-stb0899_dvbs2_init_calc      : no read at end, complete register is set in sub
-stb0899_dvbs2_btr_init       : no read at start
-stb0899_dvbs2_reacquire      : add setting at end according to Technotrend driver
-stb0899_dvbs2_get_dmd_status : adjust msleep
-stb0899_dvbs2_get_fec_status : use udelay instead of msleep which is not precise enough for 1 ms
-stb0899_dvbs2_algo           : replace 1 reads
-
 ## stb0899_cfg.h :
 BBAGCCNTRL & TSTR            : modify for modules configuration compilation
 
